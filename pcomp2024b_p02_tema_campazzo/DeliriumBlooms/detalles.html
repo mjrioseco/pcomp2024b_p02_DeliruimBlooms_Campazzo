@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delirium Blooms - Proceso</title>
+    <style>
+        /* Estilos globales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* Estilo para la galería */
+        .gallery {
+            display: grid; /* Cambiado a grid para organizar las imágenes */
+            grid-template-columns: repeat(2, 300px); /* Dos columnas de 300px */
+            gap: 40px; /* Espacio entre imágenes */
+            margin-top: 50px; /* Separación entre la barra de menú y la galería */
+            justify-content: center; /* Centra las imágenes */
+        }
+
+        .gallery img {
+            width: 300px; /* Ajusta el ancho de las imágenes */
+            height: auto;
+            border-radius: 10px; /* Bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación superior -->
+    <nav>
+        <a href="index.html" class="logo">Delirium Blooms</a>
+        <div class="menu">
+            <a href="#">Técnica</a>
+            <a href="detalles.html">Detalles</a>
+            <a href="proceso.html">Proceso</a>
+            <a href="leonardo.html">Leonardo Solaas</a>
+        </div>
+    </nav>
+
+    <!-- Galería de imágenes -->
+    <div class="gallery">
+        <img src="https://solaas.com.ar/txt/blooms/img/detail_03.jpg" alt="Detalle de la imagen 1">
+        <img src="https://solaas.com.ar/txt/blooms/img/detail_02.jpg" alt="Detalle de la imagen 2">
+        <img src="https://solaas.com.ar/txt/blooms/img/detail_01.jpg" alt="Detalle de la imagen 3">
+        <img src="https://solaas.com.ar/txt/blooms/img/detail_04.jpg" alt="Detalle de la imagen 4">
+    </div>
+
+</body>
+</html>

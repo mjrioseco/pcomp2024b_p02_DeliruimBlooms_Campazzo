@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delirium Blooms</title>
+    <style>
+        /* Estilos globales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        /* Estilo para la barra de navegación */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo del logo o nombre */
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* Sección principal del texto */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .main-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 22px;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+
+        /* Galería de imágenes */
+        .gallery {
+            display: flex;
+            justify-content: center; /* Centra las imágenes */
+            gap: 30px; /* Espacio entre imágenes */
+            margin-top: 50px; /* Separación entre texto y galería */
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px; /* Espacio adicional alrededor de las imágenes */
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .main-content h1 {
+                font-size: 36px;
+            }
+
+            .main-content p {
+                font-size: 18px;
+            }
+
+            .gallery {
+                flex-direction: column; /* Cambia las imágenes a columna en pantallas pequeñas */
+                align-items: center;
+            }
+
+            .gallery img {
+                width: 80%; /* Ajusta el ancho de las imágenes en pantallas más pequeñas */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación superior -->
+    <nav>
+        <a href="index.html" class="logo">Delirium Blooms</a> <!-- Enlazando a la página de inicio -->
+        <div class="menu">
+            <a href="#">Técnica</a>
+            <a href="detalles.html">Detalles</a>
+            <a href="proceso.html">Proceso</a>
+            <a href="leonardo.html">Leonardo Solaas</a>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <div class="icon">
+        </div>
+        <h1>Delirium Blooms</h1>
+        <p>Creada por <strong>Leonardo Solaas</strong>, es una obra de <strong>arte generativo</strong> basado en un software que crea <b>variaciones ilimitadas</b> de un mismo tema: conjuntos de dos flores que no representan ninguna especie real, sino <strong>fantasías algorítmicas</strong> resultantes de combinaciones de formas y colores parcialmente aleatorios.</p>
+    </div>
+
+    <!-- Galería de imágenes -->
+    <div class="gallery">
+        <img src="https://solaas.com.ar/txt/blooms/img/blooms_05.jpg" alt="Descripción de la imagen">
+        <img src="https://solaas.com.ar/txt/blooms/img/blooms_02.jpg" alt="Descripción de la imagen">
+        <img src="https://solaas.com.ar/txt/blooms/img/blooms_04.jpg" alt="Descripción de la imagen">
+        <img src="https://solaas.com.ar/txt/blooms/img/blooms_06.jpg" alt="Descripción de la imagen">
+    </div>
+
+</body>
+</html>
+
