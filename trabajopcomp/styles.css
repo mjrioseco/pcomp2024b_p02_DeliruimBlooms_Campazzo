@@ -1,0 +1,149 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        /* Estilo para la barra de navegación */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo del logo o nombre */
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* Sección principal del texto */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .main-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 22px;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+
+        /* Galería de imágenes */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+
+        /* Nueva sección: Vinculación de principios (modificada) */
+        .principles {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* Espacio entre las dos secciones */
+            margin: 50px auto;
+            text-align: left;
+            max-width: 1400px;
+        }
+
+        .principles .principle {
+            flex: 1; /* Hacer que las columnas tengan el mismo ancho */
+            padding: 20px;
+        }
+
+        .principles h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .principles p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .main-content h1 {
+                font-size: 36px;
+            }
+
+            .main-content p {
+                font-size: 18px;
+            }
+
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .gallery img {
+                width: 80%;
+            }
+
+            .principles {
+                flex-direction: column; /* Cambia a disposición vertical en pantallas pequeñas */
+                gap: 30px;
+            }
+
+            .principles .principle {
+                padding: 0;
+            }
+
+         /* Galería de imágenes descargadas */
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .image-gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+
+
+
+
+
+
+
+
